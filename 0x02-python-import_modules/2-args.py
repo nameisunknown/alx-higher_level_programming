@@ -8,7 +8,7 @@ if __name__ == "__main__":
         print("0 arguments.")
     elif (len(cmdsys) == 2):
         print("1 argument:", end="\n")
-        print("1: {}".format(cmdsys[1])) 
+        print("1: {}".format(cmdsys[1]))
     else:
         count = 1
         lenght = len(cmdsys) - 1
