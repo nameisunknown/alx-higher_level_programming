@@ -2,6 +2,7 @@
 
 def new_in_list(my_list, idx, element):
     listcp = my_list.copy()
+
     if idx < 0:
         return listcp
     elif idx > (len(listcp) - 1):
