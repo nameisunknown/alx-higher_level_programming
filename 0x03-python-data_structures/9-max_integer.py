@@ -14,4 +14,4 @@ def max_integer(my_list=[]):
             else:
                 swap = my_list[counter]
             counter += 1
-        return swap 
+        return swap

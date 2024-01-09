@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def no_c(my_string):
-    newstr = "";
+    newstr = ""
     length = len(my_string)
     count = 0
     while count < length:
