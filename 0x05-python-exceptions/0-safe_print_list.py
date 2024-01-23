@@ -15,7 +15,11 @@ def safe_print_list(my_list=[], x=0):
             print()
             return counter
         else:
-            return counter
+            count = 0
+            while count < my_list:
+                print(my_list[count], end="")
+                count = count + 1
+            return count
     except(IndexError, TypeError):
         pass
-    return counter
+    return len_of_list
