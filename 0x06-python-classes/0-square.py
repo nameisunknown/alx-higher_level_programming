@@ -3,7 +3,7 @@
 
 """
     This module details all that we need to get started
-    with classes and objects in python. Here we starting 
+    with classes and objects in python. Here we starting
     by just cretaing an empty class.
 """
 
