@@ -5,18 +5,20 @@
     just by creating an empty class
 """
 
+
 class Square:
-    """This class represnts a square
+    """This is the Square class
 
     Attributes:
-        __size (int): Is a private attribue
-        which represents the size of the square
+        __size (int): Is a private attribute
+        which is a field for the size of the square
     """
 
     def __init__(self, size):
-        """This method initializes the instance
+        """This is a Constructor, it is used to initialize instances/field
 
         Args:
-            size (int): Is the initializing value of the size attribute
+            size (int): Is the initializing value of the size attribute and
+            it is passed upon the instantiation of the object.
         """
         self.__size = size
