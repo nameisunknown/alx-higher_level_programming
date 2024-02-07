@@ -2,8 +2,11 @@
 
 """This module contains a class Rectangle with the use @property"""
 
+
 class Rectangle:
-    """This class is of type Rectangle and contains attributes and properties"""
+    """
+    This class is of type Rectangle and contains attributes and properties
+    """
 
     def __init__(self, width=0, height=0):
         """This method initializes the instance of this class
