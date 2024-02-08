@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+
+"""This is a class that focuses on Rectangle and the str method"""
+
+
 class Rectangle:
     """
     This class defines a ractangnd focuses on string representation
