@@ -67,6 +67,7 @@ class Rectangle:
             raise TypeError("width must be an integer")
         if self.__height < 0:
             raise ValueError("width must be >= 0")
+
     def area(self):
         """
         This returns  the area of the rectangle
